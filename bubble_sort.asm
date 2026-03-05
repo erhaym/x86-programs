@@ -7,6 +7,7 @@ extern exit
 ; TODO: use read syscall (eax=3) or scanf to ask for input
 
 section .data
+	; CHANGE THE LIST HERE
     list      DB 5,8,3,7,1,2,9,4,0 ; 0 is the null terminator
     fmt_sweep DB "Sweep %d: ",0
     fmt_num   DB "%d ",0
